@@ -1,17 +1,24 @@
 /* Bedri */
 
 /* first mobile */
+
+/* ==== desctop =======  */
 /* header */
+
 .header {
-  max-width: 368px;
-  background-color: red;
-  position: sticky;
-  top: 0;
+  max-width: 1280px;
+  /* max-height: 36px; */
+  /* background-color: red; */
+  /* position: absolute; */
 }
 .container {
-  display: inline;
+  display: flex;
+  /* padding: 70px 80px; */
+}
+.main-nav {
+  display: block;
 }
 .hero p {
   text-transform: uppercase;
-  color: red;
+  color: #ff3998;
 }
